@@ -8,7 +8,7 @@ Added two commands: ```structuredEval``` and ```structuredGo```. Everything else
 As the names suggest, the functionality of these commands is effectively identical to ```eval``` and ```go```, respectively. However, the output is JSON which makes using their outputs much easier for developers. 
 
 ## Motivation
-Although I'm bad at chess **:((((** I really enjoy playing it. After losing my games, I frequently cry as Game Review shows me how I hung my queen and blundered mate in one. On a more serious note, I usually have trouble understanding deeper engine lines when I do self-analysis. I think adding information other than just lines would help me and other chess players understand the game better.  
+Although I'm bad at chess **:((((** I really enjoy playing it. After losing my games, I at least try to analyze my games but usually have trouble understanding deeper engine lines. I think adding information other than just lines would help me and other chess players understand the game better.  
 
 Stockfish provides a beautiful, understandable evaluation visualization for the "eval" command. See the position evaluation below after e2e4:
 ```
